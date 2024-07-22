@@ -17,6 +17,7 @@ Květinářství je webová stránka, která nabízí:
 - **Galerie květin:** Sekce s obrázky květin, které si uživatelé mohou prohlížet.
 - **Přihlašovací formulář:** Umožňuje uživatelům se přihlásit a validovat své údaje.
 - **Tlačítko pro návrat na začátek stránky:** Pomocí tlačítka mohou uživatelé snadno přejít na začátek stránky.
+- **Responzivní design:** Stránka je optimalizována pro zobrazení na různých zařízeních včetně mobilních telefonů a tabletů.
 
 ## Použité technologie
 
