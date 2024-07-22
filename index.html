@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Lenka Lážnovská -->
+  <!-- lenkalaznovska@seznam.cz -->
+  <!-- lenkalaznovska -->
+  <head>
+    <html lang="cs">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Květinářství</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="icon" href="favicon/favicon.png" />
+      </head>
+      <body>
+        <!-- Hlavička s navigací -->
+        <header>
+          <nav>
+            <!-- Ikona menu pro mobilní zobrazení -->
+            <div class="menu-toggle">
+              <img src="img/menu.png" alt="Menu" id="menu-icon" />
+            </div>
+            <!-- Hlavní navigační menu -->
+            <ul class="menu">
+              <li><a href="#section1">O nás</a></li>
+              <li><a href="#section2">Galerie</a></li>
+              <li><a href="#section3">Přihlášení</a></li>
+            </ul>
+            <!-- Přepínač tmavého světla -->
+            <div class="switcher-box">
+              <i class="fa-regular fa-sun"></i>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <i class="fa-solid fa-moon"></i>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Hlavní obsah stránky -->
+        <div class="container">
+          <!-- Sekce o květinářství -->
+          <section id="section1">
+            <h1>O nás</h1>
+            <p>
+              V našem květinářství najdete široký výběr krásných květin pro
+              každou příležitost...
+            </p>
+            <p>Naše květinářství funguje již více než 20 let...</p>
+            <p>Nabízíme také pravidelné kurzy aranžování květin...</p>
+          </section>
+
+          <!-- Galerie -->
+          <section id="section2">
+            <h2>Galerie květin</h2>
+            <div class="images">
+              <img src="img/rose1.jpg" alt="Růže 1" />
+              <img src="img/rose2.jpg" alt="Růže 2" />
+              <img src="img/rose3.jpg" alt="Růže 3" />
+            </div>
+          </section>
+
+          <!-- Přihlašovací formulář -->
+          <section id="section3">
+            <h2>Přihlášení</h2>
+            <form id="loginForm">
+              <label for="username">Uživatelské jméno:</label>
+              <input type="text" id="username" required />
+              <label for="password">Heslo:</label>
+              <input type="password" id="password" required />
+              <label for="password-confirm">Potvrzení hesla:</label>
+              <input type="password" id="password-confirm" required />
+              <button type="submit">Přihlásit se</button>
+            </form>
+          </section>
+        </div>
+
+        <!-- Patička stránky -->
+        <footer id="footer">
+          <p>&copy; 2024 Květinářství</p>
+        </footer>
+
+        <!-- Tlačítko pro návrat na začátek stránky -->
+        <button id="backToTop">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <!-- Odkaz na JavaScriptový soubor -->
+        <script src="script.js " defer></script>
+      </body>
+    </html>
+  </head>
+</html>
