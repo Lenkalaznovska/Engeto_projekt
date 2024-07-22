@@ -33,5 +33,5 @@ Květinářství je webová stránka, která nabízí:
 - `index.html`: Hlavní HTML soubor stránky obsahující strukturu a obsah.
 - `css/style.css`: Stylování stránky, včetně stylů pro tmavý režim a responzivní design.
 - `script.js`: JavaScriptový soubor pro interaktivní prvky a funkčnost stránky.
-- `favicon/`: Ikona používané na webu.
+- `favicon/`: Ikona používaná na webu.
 - `img/`: Obrázky používané na webu.
