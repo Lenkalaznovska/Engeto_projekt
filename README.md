@@ -1,37 +1,37 @@
-# Květinářství
+# Flower Shop
 
-Vítejte v repozitáři projektu Květinářství. Tento projekt je moderní webová stránka určená k prezentaci květinářství.
+Welcome to the Flower Shop project repository. This project is a modern website designed to showcase a flower shop. You can view the live version of the site [here](https://lenkalaznovska.github.io/Flowers_Responsive_web/).
 
-## Obsah
+## Table of Contents
 
-1. [Popis](#popis)
-2. [Použité technologie](#použité-technologie)
-3. [Struktura projektu](#struktura-projektu)
+1. [Description](#description)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
 
-## Popis
+## Description
 
-Květinářství je webová stránka, která nabízí:
+The Flower Shop website offers:
 
-- **Navigační menu:** Uživatelé mohou přecházet mezi sekcemi "O nás", "Galerie" a "Přihlášení".
-- **Přepínač tmavého režimu:** Uživatelé mohou přepínat mezi světlým a tmavým režimem.
-- **Galerie květin:** Sekce s obrázky květin, které si uživatelé mohou prohlížet.
-- **Přihlašovací formulář:** Umožňuje uživatelům se přihlásit a validovat své údaje.
-- **Tlačítko pro návrat na začátek stránky:** Pomocí tlačítka mohou uživatelé snadno přejít na začátek stránky.
-- **Responzivní design:** Stránka je optimalizována pro zobrazení na různých zařízeních včetně mobilních telefonů a tabletů.
+- **Navigation Menu:** Users can navigate between the "About Us", "Gallery", and "Login" sections.
+- **Dark Mode Toggle:** Users can switch between light and dark modes.
+- **Flower Gallery:** A section with images of flowers that users can browse.
+- **Login Form:** Allows users to log in and validate their credentials.
+- **Back to Top Button:** Users can easily return to the top of the page using this button.
+- **Responsive Design:** The page is optimized for viewing on various devices, including mobile phones and tablets.
 
-## Použité technologie
+## Technologies Used
 
 ### Frontend
 
-- **HTML5:** Struktura webové stránky.
-- **CSS3:** Stylování webové stránky, včetně použití proměnných pro barvy a tmavý režim.
-- **JavaScript:** Interaktivní prvky, jako je přepínač tmavého režimu, mobilní menu a validace formuláře.
-- **Font Awesome:** Ikony používané na webové stránce.
+- **HTML5:** Structure of the website.
+- **CSS3:** Styling of the website, including the use of variables for colors and dark mode.
+- **JavaScript:** Interactive elements such as the dark mode toggle, mobile menu, and form validation.
+- **Font Awesome:** Icons used on the website.
 
-## Struktura projektu
+## Project Structure
 
-- `index.html`: Hlavní HTML soubor stránky obsahující strukturu a obsah.
-- `css/style.css`: Stylování stránky, včetně stylů pro tmavý režim a responzivní design.
-- `script.js`: JavaScriptový soubor pro interaktivní prvky a funkčnost stránky.
-- `favicon/`: Ikona používaná na webu.
-- `img/`: Obrázky používané na webu.
+- `index.html`: The main HTML file containing the structure and content of the page.
+- `css/style.css`: Styling for the page, including styles for dark mode and responsive design.
+- `script.js`: JavaScript file for interactive elements and functionality.
+- `favicon/`: Icon used on the website.
+- `img/`: Images used on the website.
