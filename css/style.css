@@ -1,25 +1,25 @@
-/* Hlavní proměnné */
+/* Main variables */
 :root {
-  --primary-color: #4caf50; /* Hlavní barva */
-  --secondary-color: #81c784; /* Sekundární barva */
-  --background-color: #fafafa; /* Barva pozadí */
-  --text-color: #333; /* Barva textu */
-  --switcher-color: #4caf50; /* Barva přepínače */
-  --header-padding: 15px 30px; /* Vnitřní okraje hlavičky */
-  --menu-gap: 30px; /* Mezera mezi položkami menu */
-  --switcher-margin-right: 70px; /* Pravý okraj pro přepínač */
+  --primary-color: #4caf50; /* Main color */
+  --secondary-color: #81c784; /* Secondary color */
+  --background-color: #fafafa; /* Background color */
+  --text-color: #333; /* Text color */
+  --switcher-color: #4caf50; /* Switcher color */
+  --header-padding: 15px 30px; /* Header padding */
+  --menu-gap: 30px; /* Gap between menu items */
+  --switcher-margin-right: 70px; /* Right margin for the switcher */
 }
 
-/* Styl pro tmavý motiv */
+/* Style for dark theme */
 [data-theme="dark"] {
-  --primary-color: #388e3c; /* Hlavní barva pro tmavý motiv */
-  --secondary-color: #a5d6a7; /* Sekundární barva pro tmavý motiv */
-  --background-color: #2e2e2e; /* Barva pozadí pro tmavý motiv */
-  --text-color: #fafafa; /* Barva textu pro tmavý motiv */
-  --switcher-color: #a5d6a7; /* Barva přepínače pro tmavý motiv */
+  --primary-color: #388e3c; /* Main color for dark theme */
+  --secondary-color: #a5d6a7; /* Secondary color for dark theme */
+  --background-color: #2e2e2e; /* Background color for dark theme */
+  --text-color: #fafafa; /* Text color for dark theme */
+  --switcher-color: #a5d6a7; /* Switcher color for dark theme */
 }
 
-/* Styl pro body */
+/* Style for body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -30,18 +30,18 @@ body {
   overflow-x: hidden;
 }
 
-/* Styl pro hlavičku */
+/* Style for header */
 header {
   background: var(--primary-color);
   color: #fff;
-  padding: var(--header-padding); /* Použití proměnné pro vnitřní okraje */
+  padding: var(--header-padding); /* Use variable for padding */
   display: flex;
-  justify-content: space-between; /* Rozložení obsahu mezi kraje */
+  justify-content: space-between; /* Layout content between edges */
   align-items: center;
   width: 100%;
 }
 
-/* Styl pro navigaci */
+/* Style for navigation */
 nav {
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@ nav {
   justify-content: space-between;
 }
 
-/* Styl pro menu */
+/* Style for menu */
 .menu {
   list-style: none;
   padding: 0;
@@ -67,7 +67,7 @@ nav {
   text-decoration: none;
 }
 
-/* Styl pro přepínač menu */
+/* Style for menu toggle button */
 .menu-toggle {
   display: none;
   cursor: pointer;
@@ -78,14 +78,12 @@ nav {
   height: 30px;
 }
 
-/* Styl přepínače režimu (světlo/tma) */
+/* Style for mode switcher (light/dark) */
 .switcher-box {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-right: var(
-    --switcher-margin-right
-  ); /* Použití proměnné pro pravý okraj */
+  margin-right: var(--switcher-margin-right); /* Use variable for right margin */
 }
 
 .switcher-box .fa-sun,
@@ -166,7 +164,7 @@ section {
   transform: scale(1.1);
 }
 
-/* Styl pro přihlašovací formulář */
+/* Style for login form */
 form {
   max-width: 400px;
   margin: 0 auto;
@@ -209,7 +207,7 @@ form button:hover {
   transform: scale(1.05);
 }
 
-/* Styl pro tlačítko "zpět na začátek" */
+/* Style for "back to top" button */
 #backToTop {
   position: fixed;
   right: 65px;
@@ -223,7 +221,7 @@ form button:hover {
   display: none;
 }
 
-/* Styl pro patičku */
+/* Style for footer */
 #footer {
   background: var(--primary-color);
   color: #fff;
@@ -232,7 +230,7 @@ form button:hover {
   width: 100%;
 }
 
-/* Responzivní menu */
+/* Responsive menu */
 @media only screen and (max-width: 768px) {
   .container {
     width: 90%;
