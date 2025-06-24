@@ -1,6 +1,8 @@
 # Flower Shop
 
-Welcome to the Flower Shop project repository. This project is a modern website designed to showcase a flower shop. You can view the live version of the site [here](https://lenkalaznovska.github.io/Flower_shop_Responsive_web/).
+Welcome to the Flower Shop project repository. This project is a modern website designed to showcase a flower shop. You can view the live version of the site [here](https://lenkalaznovska.github.io/Flower_shop_Responsive_web/)
+
+![image](https://github.com/user-attachments/assets/4e523346-fff1-4b72-8405-c18bbdfb83d4)
 
 ## Table of Contents
 
